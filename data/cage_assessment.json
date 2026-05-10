@@ -1,0 +1,67 @@
+{
+  "assessmentName": "CAGE Alcohol Screening (Demonstration Fixture)",
+  "assessmentType": "screening_demonstration",
+  "version": "1.0",
+  "instructions": "DEMONSTRATION FIXTURE NOTE: This file uses CAGE questionnaire content to demonstrate the engine's BinaryQuestion capability. It is NOT intended as a clinical screening tool and must not be used for clinical purposes. A score of 2 or more on the clinical instrument warrants follow-up by a healthcare professional. -- Original instructions: Please answer Yes or No to the following questions.",
+  "scaleMin": 0,
+  "scaleMax": 1,
+  "scaleLabels": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "questionType": "binary",
+  "dimensions": [
+    "Alcohol Concern"
+  ],
+  "descriptions": {
+    "Alcohol Concern": {
+      "label": "Alcohol Use Concern",
+      "overview": "The CAGE questionnaire is a brief screening instrument used to identify potential alcohol use concerns. Each 'Yes' answer contributes one point.",
+      "highMeaning": "A high score (2 or more Yes answers) on the original clinical instrument is associated with a higher likelihood of alcohol use disorder and warrants follow-up with a healthcare professional.",
+      "lowMeaning": "A low score (0 or 1 Yes answers) on the original clinical instrument is generally associated with lower risk, though it does not rule out alcohol-related concerns."
+    }
+  },
+  "signposts": {
+    "Alcohol Concern": {
+      "High": "This demonstration result is for informational purposes only. If you have concerns about alcohol use, please speak with a qualified healthcare professional.",
+      "Moderate": "This demonstration result is for informational purposes only. If you have concerns about alcohol use, please speak with a qualified healthcare professional.",
+      "Low": "This demonstration result is for informational purposes only. If you have any concerns about your health, please speak with a qualified healthcare professional."
+    }
+  },
+  "dimensions_thresholds": {
+    "Alcohol Concern": {
+      "highThreshold": 0.75,
+      "moderateThreshold": 0.25
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Have you ever felt you should Cut down on your drinking?",
+      "dimension": "Alcohol Concern",
+      "isReverseCoded": false,
+      "questionType": "binary"
+    },
+    {
+      "id": 2,
+      "text": "Have people Annoyed you by criticising your drinking?",
+      "dimension": "Alcohol Concern",
+      "isReverseCoded": false,
+      "questionType": "binary"
+    },
+    {
+      "id": 3,
+      "text": "Have you ever felt bad or Guilty about your drinking?",
+      "dimension": "Alcohol Concern",
+      "isReverseCoded": false,
+      "questionType": "binary"
+    },
+    {
+      "id": 4,
+      "text": "Have you ever had a drink first thing in the morning to steady your nerves or get rid of a hangover (Eye opener)?",
+      "dimension": "Alcohol Concern",
+      "isReverseCoded": false,
+      "questionType": "binary"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "assessmentName": "Rosenberg Self-Esteem Scale",
+    "assessmentType": "self-esteem",
+    "version": "1.0",
+    "instructions": "DEMONSTRATION FIXTURE NOTE: This file uses Rosenberg Self-Esteem Scale content to demonstrate the assessment engine's capabilities. It is NOT intended as a clinical or diagnostic tool and must not be used for clinical purposes. If you have concerns about your mental health or wellbeing, please speak with a qualified healthcare professional. -- Original instructions: Below is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement.",
+    "scaleMin": 1,
+    "scaleMax": 4,
+    "scaleLabels": {
+        "1": "Strongly Agree",
+        "2": "Agree",
+        "3": "Disagree",
+        "4": "Strongly Disagree"
+    },
+    "dimensions": [
+        "Self-Esteem"
+    ],
+    "descriptions": {
+        "Self-Esteem": {
+            "label": "Global Self-Esteem",
+            "overview": "Self-esteem reflects your overall sense of personal worth and value as an individual.",
+            "highMeaning": "High scorers tend to feel positively about themselves, accept their limitations, and approach challenges with confidence.",
+            "lowMeaning": "Low scorers may struggle with self-doubt, be highly self-critical, or feel they lack value compared to others."
+        }
+    },
+    "thresholds": {
+        "Self-Esteem": {
+            "high": 0.65,
+            "moderate": 0.40
+        }
+    },
+    "signposts": {
+        "Self-Esteem": {
+            "High": "You hold yourself in positive regard. Maintain this by continuing to acknowledge your strengths alongside your limitations.",
+            "Moderate": "You have a mixed sense of self-worth. Reflecting on specific areas of confidence versus self-doubt may help clarify where to focus.",
+            "Low": "You may be experiencing significant self-criticism. Speaking with a trusted person or counsellor could be a helpful next step."
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "I feel that I am a person of worth, at least on an equal plane with others.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": false
+        },
+        {
+            "id": 2,
+            "text": "I feel that I have a number of good qualities.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": false
+        },
+        {
+            "id": 3,
+            "text": "All in all, I am inclined to feel that I am a failure.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": true
+        },
+        {
+            "id": 4,
+            "text": "I am able to do things as well as most other people.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": false
+        },
+        {
+            "id": 5,
+            "text": "I feel I do not have much to be proud of.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": true
+        },
+        {
+            "id": 6,
+            "text": "I take a positive attitude toward myself.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": false
+        },
+        {
+            "id": 7,
+            "text": "On the whole, I am satisfied with myself.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": false
+        },
+        {
+            "id": 8,
+            "text": "I wish I could have more respect for myself.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": true
+        },
+        {
+            "id": 9,
+            "text": "I certainly feel useless at times.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": true
+        },
+        {
+            "id": 10,
+            "text": "At times I think I am no good at all.",
+            "dimension": "Self-Esteem",
+            "reverseCoded": true
+        }
+    ]
+}

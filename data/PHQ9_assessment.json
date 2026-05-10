@@ -1,0 +1,73 @@
+{
+  "assessmentName": "PHQ-9 (Test Fixture for Scale Validation)",
+  "assessmentType": "screening_test_fixture",
+  "version": "1.0",
+  "instructions": "TEST FIXTURE NOTE: This file uses PHQ-9 question content as test data to validate the assessment engine's handling of a 0-3 scale. It is NOT intended as a clinical screening tool and must not be used for clinical purposes. -- Original instructions: Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+  "scaleMin": 0,
+  "scaleMax": 3,
+  "scaleLabels": {
+    "0": "Not at all",
+    "1": "Several days",
+    "2": "More than half the days",
+    "3": "Nearly every day"
+  },
+  "dimensions": [
+    "Depression"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Little interest or pleasure in doing things.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 2,
+      "text": "Feeling down, depressed, or hopeless.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 3,
+      "text": "Trouble falling or staying asleep, or sleeping too much.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 4,
+      "text": "Feeling tired or having little energy.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 5,
+      "text": "Poor appetite or overeating.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 6,
+      "text": "Feeling bad about yourself, or that you are a failure, or have let yourself or your family down.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 7,
+      "text": "Trouble concentrating on things, such as reading the newspaper or watching television.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 8,
+      "text": "Moving or speaking so slowly that other people could have noticed; or being so fidgety or restless that you have been moving around a lot more than usual.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    },
+    {
+      "id": 9,
+      "text": "Thoughts that you would be better off dead, or of hurting yourself in some way.",
+      "dimension": "Depression",
+      "isReverseCoded": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "assessmentName": "SWLS (Test Fixture for Scale Validation)",
+  "assessmentType": "wellbeing_test_fixture",
+  "version": "1.0",
+  "instructions": "TEST FIXTURE NOTE: This file uses Satisfaction With Life Scale (SWLS) question content as test data to validate the assessment engine's handling of a 1-7 scale. It is NOT intended as a clinical or research instrument. -- Original instructions: Below are five statements that you may agree or disagree with. Using the 1-7 scale below, indicate your agreement with each item.",
+  "scaleMin": 1,
+  "scaleMax": 7,
+  "scaleLabels": {
+    "1": "Strongly Disagree",
+    "2": "Disagree",
+    "3": "Slightly Disagree",
+    "4": "Neither Agree nor Disagree",
+    "5": "Slightly Agree",
+    "6": "Agree",
+    "7": "Strongly Agree"
+  },
+  "dimensions": [
+    "Life Satisfaction"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "In most ways my life is close to my ideal.",
+      "dimension": "Life Satisfaction",
+      "isReverseCoded": false
+    },
+    {
+      "id": 2,
+      "text": "The conditions of my life are excellent.",
+      "dimension": "Life Satisfaction",
+      "isReverseCoded": false
+    },
+    {
+      "id": 3,
+      "text": "I am satisfied with my life.",
+      "dimension": "Life Satisfaction",
+      "isReverseCoded": false
+    },
+    {
+      "id": 4,
+      "text": "So far I have gotten the important things I want in life.",
+      "dimension": "Life Satisfaction",
+      "isReverseCoded": false
+    },
+    {
+      "id": 5,
+      "text": "If I could live my life over, I would change almost nothing.",
+      "dimension": "Life Satisfaction",
+      "isReverseCoded": false
+    }
+  ]
+}

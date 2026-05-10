@@ -1,0 +1,417 @@
+{
+    "assessmentName": "Big Five Personality Inventory (Enhanced)",
+    "assessmentType": "personality",
+    "version": "2.0",
+    "instructions": "Below are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement.",
+    "scaleMin": 1,
+    "scaleMax": 5,
+    "scaleLabels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+    },
+    "dimensions": [
+        "Openness",
+        "Conscientiousness",
+        "Extraversion",
+        "Agreeableness",
+        "Neuroticism"
+    ],
+    "descriptions": {
+        "Openness": {
+            "label": "Openness to Experience",
+            "overview": "Openness reflects intellectual curiosity, imagination, and appreciation for art, emotion, and novel experiences.",
+            "highMeaning": "High scorers tend to be creative, curious about the world, and open to unconventional ideas.",
+            "lowMeaning": "Low scorers tend to prefer routine, practical matters, and conventional approaches."
+        },
+        "Conscientiousness": {
+            "label": "Conscientiousness",
+            "overview": "Conscientiousness measures self-discipline, organization, and goal-directed behavior.",
+            "highMeaning": "High scorers are typically organized, reliable, and persistent in pursuing goals.",
+            "lowMeaning": "Low scorers may be more spontaneous, flexible, and less focused on structure."
+        },
+        "Extraversion": {
+            "label": "Extraversion",
+            "overview": "Extraversion captures energy drawn from social interaction and external stimulation.",
+            "highMeaning": "High scorers are typically outgoing, energetic, and enjoy being around people.",
+            "lowMeaning": "Low scorers (introverts) tend to be reserved, prefer solitude, and recharge through quiet time."
+        },
+        "Agreeableness": {
+            "label": "Agreeableness",
+            "overview": "Agreeableness reflects concern for social harmony, empathy, and cooperation.",
+            "highMeaning": "High scorers are typically compassionate, trusting, and value getting along with others.",
+            "lowMeaning": "Low scorers may be more competitive, skeptical, and prioritize truth over harmony."
+        },
+        "Neuroticism": {
+            "label": "Neuroticism",
+            "overview": "Neuroticism measures emotional reactivity and sensitivity to stress.",
+            "highMeaning": "High scorers are more likely to experience negative emotions like anxiety, anger, or sadness.",
+            "lowMeaning": "Low scorers (emotionally stable) tend to be calm, even-tempered, and resilient under stress."
+        }
+    },
+    "patterns": [
+        {
+            "name": "Creative Stability",
+            "conditions": {
+                "Openness": "High",
+                "Neuroticism": "Low"
+            },
+            "description": "This combination suggests intellectual curiosity and creative engagement without anxiety interference. You likely explore new ideas with confidence and emotional resilience."
+        },
+        {
+            "name": "Conscientious Introvert",
+            "conditions": {
+                "Conscientiousness": "High",
+                "Extraversion": "Low"
+            },
+            "description": "This profile suggests someone who is organized and goal-focused, but energized by solitary work rather than group settings. You may excel in roles requiring sustained concentration."
+        },
+        {
+            "name": "Agreeable Extrovert",
+            "conditions": {
+                "Agreeableness": "High",
+                "Extraversion": "High"
+            },
+            "description": "This combination reflects strong people skills — you're both socially energized and empathetically attuned. You likely thrive in collaborative, relationship-focused roles."
+        },
+        {
+            "name": "Organized Creative",
+            "conditions": {
+                "Openness": "High",
+                "Conscientiousness": "High"
+            },
+            "description": "This rare combination suggests disciplined creativity — you have both imaginative vision and the follow-through to realize it. You likely balance big-picture thinking with practical execution."
+        }
+    ],
+    "signposts": {
+        "Openness": {
+            "High": "Seek environments that reward creativity and intellectual exploration. Consider roles in research, arts, or innovation.",
+            "Moderate": "You balance novelty with practicality. Look for settings that offer variety within structure.",
+            "Low": "You may excel in roles requiring consistency and proven methods. Seek clear, established processes."
+        },
+        "Conscientiousness": {
+            "High": "Your discipline is a strength — but watch for perfectionism or rigidity. Build in time for rest and spontaneity.",
+            "Moderate": "You balance structure with flexibility. This adaptability serves you well in dynamic environments.",
+            "Low": "Consider systems or accountability partners to support follow-through on long-term goals."
+        },
+        "Extraversion": {
+            "High": "You thrive on social energy. Seek roles with collaboration and interaction, but schedule downtime to recharge.",
+            "Moderate": "You're socially flexible. Leverage this balance in roles requiring both teamwork and independent work.",
+            "Low": "Your energy comes from solitude. Seek roles allowing deep focus, and honor your need for quiet."
+        },
+        "Agreeableness": {
+            "High": "Your empathy is a strength — but practice setting boundaries to avoid overextending yourself.",
+            "Moderate": "You balance cooperation with assertiveness. This serves you well in roles requiring diplomacy.",
+            "Low": "Your directness and skepticism can be assets — pair them with empathy to build trust in relationships."
+        },
+        "Neuroticism": {
+            "High": "Your emotional sensitivity can be channeled into empathy and depth. Consider stress-management practices.",
+            "Moderate": "You experience a typical range of emotional ups and downs. Build resilience through self-awareness.",
+            "Low": "Your emotional stability is a strength. Share your calm perspective to support others in stressful times."
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "I am the life of the party.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 2,
+            "text": "I don't talk a lot.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 3,
+            "text": "I sympathize with others' feelings.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 4,
+            "text": "I am not interested in other people's problems.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 5,
+            "text": "I get chores done right away.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 6,
+            "text": "I often forget to put things back in their proper place.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 7,
+            "text": "I have frequent mood swings.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 8,
+            "text": "I am relaxed most of the time.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": true
+        },
+        {
+            "id": 9,
+            "text": "I have a vivid imagination.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 10,
+            "text": "I am not interested in abstract ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 11,
+            "text": "I feel comfortable around people.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 12,
+            "text": "I keep in the background.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 13,
+            "text": "I start conversations.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 14,
+            "text": "I have little to say.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 15,
+            "text": "I talk to a lot of different people at parties.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 16,
+            "text": "I don't like to draw attention to myself.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 17,
+            "text": "I don't mind being the center of attention.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 18,
+            "text": "I am quiet around strangers.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 19,
+            "text": "I am interested in people.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 20,
+            "text": "I insult people.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 21,
+            "text": "I have a soft heart.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 22,
+            "text": "I am not really interested in others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 23,
+            "text": "I take time out for others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 24,
+            "text": "I feel others' emotions.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 25,
+            "text": "I make people feel at ease.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 26,
+            "text": "I feel little concern for others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 27,
+            "text": "I am always prepared.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 28,
+            "text": "I leave my belongings around.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 29,
+            "text": "I pay attention to details.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 30,
+            "text": "I make a mess of things.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 31,
+            "text": "I like order.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 32,
+            "text": "I shirk my duties.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 33,
+            "text": "I follow a schedule.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 34,
+            "text": "I am exacting in my work.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 35,
+            "text": "I get stressed out easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 36,
+            "text": "I worry about things.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 37,
+            "text": "I seldom feel blue.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": true
+        },
+        {
+            "id": 38,
+            "text": "I am easily disturbed.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 39,
+            "text": "I get upset easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 40,
+            "text": "I change my mood a lot.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 41,
+            "text": "I get irritated easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 42,
+            "text": "I often feel blue.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 43,
+            "text": "I have excellent ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 44,
+            "text": "I have difficulty understanding abstract ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 45,
+            "text": "I do not have a good imagination.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 46,
+            "text": "I am quick to understand things.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 47,
+            "text": "I use difficult words.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 48,
+            "text": "I spend time reflecting on things.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 49,
+            "text": "I am full of ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 50,
+            "text": "I am not interested in theoretical discussions.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        }
+    ]
+}

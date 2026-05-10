@@ -1,0 +1,211 @@
+{
+    "assessmentName": "Positive and Negative Affect Schedule",
+    "assessmentType": "affect",
+    "version": "1.0",
+    "instructions": "DEMONSTRATION FIXTURE NOTE: This file uses Positive and Negative Affect Schedule (PANAS) content to demonstrate the assessment engine's two-dimension and pattern detection capabilities. It is NOT intended as a clinical or diagnostic tool and must not be used for clinical purposes. If you have concerns about your mental health or wellbeing, please speak with a qualified healthcare professional. -- Original instructions: This scale consists of a number of words that describe different feelings and emotions. Read each item and then indicate to what extent you have felt this way recently — over the past few weeks.",
+    "scaleMin": 1,
+    "scaleMax": 5,
+    "scaleLabels": {
+        "1": "Very slightly or not at all",
+        "2": "A little",
+        "3": "Moderately",
+        "4": "Quite a bit",
+        "5": "Extremely"
+    },
+    "dimensions": [
+        "Positive Affect",
+        "Negative Affect"
+    ],
+    "descriptions": {
+        "Positive Affect": {
+            "label": "Positive Affect",
+            "overview": "Positive Affect reflects the extent to which a person feels enthusiastic, active, and alert. High PA is a state of high energy, full concentration, and pleasurable engagement.",
+            "highMeaning": "High scorers are experiencing frequent positive emotions such as enthusiasm, energy, and interest in the world around them.",
+            "lowMeaning": "Low scorers report feeling fatigued, subdued, or disengaged. Low PA is associated with reduced motivation and sadness."
+        },
+        "Negative Affect": {
+            "label": "Negative Affect",
+            "overview": "Negative Affect is a general dimension of subjective distress encompassing a range of aversive mood states including nervousness, upset, and irritability.",
+            "highMeaning": "High scorers are experiencing frequent negative emotions such as anxiety, hostility, or distress.",
+            "lowMeaning": "Low scorers report feeling calm, composed, and relatively free from negative emotional experiences."
+        }
+    },
+    "thresholds": {
+        "Positive Affect": {
+            "high": 0.65,
+            "moderate": 0.40
+        },
+        "Negative Affect": {
+            "high": 0.65,
+            "moderate": 0.40
+        }
+    },
+    "signposts": {
+        "Positive Affect": {
+            "High": "You are experiencing strong positive engagement with life. Sustaining activities that energise and interest you will help maintain this.",
+            "Moderate": "You have a mixed positive affect profile. Consider which activities or relationships tend to lift your mood and energy.",
+            "Low": "You may be experiencing low energy or reduced motivation. Gentle activity, social connection, or speaking with someone you trust can help."
+        },
+        "Negative Affect": {
+            "High": "You are experiencing elevated distress or negative emotion. It may be worth speaking with a trusted person or mental health professional.",
+            "Moderate": "You experience some negative emotions, which is normal. Noticing what triggers these feelings can be a useful first step.",
+            "Low": "You report low levels of distress and negative emotion, reflecting emotional calm and stability."
+        }
+    },
+    "patterns": [
+        {
+            "name": "High Activation — Positive Engagement",
+            "conditions": {
+                "Positive Affect": "High",
+                "Negative Affect": "Low"
+            },
+            "description": "High positive affect combined with low negative affect is the hallmark of a positive, energised emotional state. You are experiencing life with enthusiasm and relatively little distress — the most adaptive affect balance."
+        },
+        {
+            "name": "High Activation — Distressed",
+            "conditions": {
+                "Positive Affect": "High",
+                "Negative Affect": "High"
+            },
+            "description": "You are experiencing both high positive and high negative affect simultaneously. This pattern reflects a state of high emotional arousal in both directions — energised but also stressed. Sometimes associated with demanding but engaging circumstances."
+        },
+        {
+            "name": "Low Activation — Calm and Disengaged",
+            "conditions": {
+                "Positive Affect": "Low",
+                "Negative Affect": "Low"
+            },
+            "description": "Low scores on both dimensions indicate a calm but low-energy state. You are not experiencing significant distress, but also report little enthusiasm or engagement. This can reflect rest and recovery, or may indicate emotional flatness worth monitoring."
+        },
+        {
+            "name": "Low Activation — Negative",
+            "conditions": {
+                "Positive Affect": "Low",
+                "Negative Affect": "High"
+            },
+            "description": "Low positive affect combined with high negative affect is associated with distress and emotional difficulty. You are experiencing significant negative emotions without the counterbalance of positive engagement. Speaking with a trusted person or professional is encouraged."
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "text": "Interested",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 2,
+            "text": "Distressed",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 3,
+            "text": "Excited",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 4,
+            "text": "Upset",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 5,
+            "text": "Strong",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 6,
+            "text": "Guilty",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 7,
+            "text": "Scared",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 8,
+            "text": "Hostile",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 9,
+            "text": "Enthusiastic",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 10,
+            "text": "Proud",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 11,
+            "text": "Irritable",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 12,
+            "text": "Alert",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 13,
+            "text": "Ashamed",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 14,
+            "text": "Inspired",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 15,
+            "text": "Nervous",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 16,
+            "text": "Determined",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 17,
+            "text": "Attentive",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 18,
+            "text": "Jittery",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 19,
+            "text": "Active",
+            "dimension": "Positive Affect",
+            "reverseCoded": false
+        },
+        {
+            "id": 20,
+            "text": "Afraid",
+            "dimension": "Negative Affect",
+            "reverseCoded": false
+        }
+    ]
+}

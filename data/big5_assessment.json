@@ -1,0 +1,324 @@
+{
+    "assessmentName": "Big Five Personality Inventory",
+    "assessmentType": "personality",
+    "version": "1.0",
+    "instructions": "Below are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement.",
+    "scaleMin": 1,
+    "scaleMax": 5,
+    "scaleLabels": {
+        "1": "Strongly Disagree",
+        "2": "Disagree",
+        "3": "Neutral",
+        "4": "Agree",
+        "5": "Strongly Agree"
+    },
+    "dimensions": [
+        "Openness",
+        "Conscientiousness",
+        "Extraversion",
+        "Agreeableness",
+        "Neuroticism"
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "text": "I am the life of the party.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 2,
+            "text": "I don't talk a lot.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 3,
+            "text": "I sympathize with others' feelings.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 4,
+            "text": "I am not interested in other people's problems.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 5,
+            "text": "I get chores done right away.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 6,
+            "text": "I often forget to put things back in their proper place.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 7,
+            "text": "I have frequent mood swings.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 8,
+            "text": "I am relaxed most of the time.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": true
+        },
+        {
+            "id": 9,
+            "text": "I have a vivid imagination.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 10,
+            "text": "I am not interested in abstract ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 11,
+            "text": "I feel comfortable around people.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 12,
+            "text": "I keep in the background.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 13,
+            "text": "I start conversations.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 14,
+            "text": "I have little to say.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 15,
+            "text": "I talk to a lot of different people at parties.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 16,
+            "text": "I don't like to draw attention to myself.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 17,
+            "text": "I don't mind being the center of attention.",
+            "dimension": "Extraversion",
+            "isReverseCoded": false
+        },
+        {
+            "id": 18,
+            "text": "I am quiet around strangers.",
+            "dimension": "Extraversion",
+            "isReverseCoded": true
+        },
+        {
+            "id": 19,
+            "text": "I am interested in people.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 20,
+            "text": "I insult people.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 21,
+            "text": "I have a soft heart.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 22,
+            "text": "I am not really interested in others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 23,
+            "text": "I take time out for others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 24,
+            "text": "I feel others' emotions.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 25,
+            "text": "I make people feel at ease.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 26,
+            "text": "I feel little concern for others.",
+            "dimension": "Agreeableness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 27,
+            "text": "I am always prepared.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 28,
+            "text": "I leave my belongings around.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 29,
+            "text": "I pay attention to details.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 30,
+            "text": "I make a mess of things.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 31,
+            "text": "I like order.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 32,
+            "text": "I shirk my duties.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 33,
+            "text": "I follow a schedule.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 34,
+            "text": "I am exacting in my work.",
+            "dimension": "Conscientiousness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 35,
+            "text": "I get stressed out easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 36,
+            "text": "I worry about things.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 37,
+            "text": "I seldom feel blue.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": true
+        },
+        {
+            "id": 38,
+            "text": "I am easily disturbed.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 39,
+            "text": "I get upset easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 40,
+            "text": "I change my mood a lot.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 41,
+            "text": "I get irritated easily.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 42,
+            "text": "I often feel blue.",
+            "dimension": "Neuroticism",
+            "isReverseCoded": false
+        },
+        {
+            "id": 43,
+            "text": "I have excellent ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 44,
+            "text": "I have difficulty understanding abstract ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 45,
+            "text": "I do not have a good imagination.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        },
+        {
+            "id": 46,
+            "text": "I am quick to understand things.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 47,
+            "text": "I use difficult words.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 48,
+            "text": "I spend time reflecting on things.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 49,
+            "text": "I am full of ideas.",
+            "dimension": "Openness",
+            "isReverseCoded": false
+        },
+        {
+            "id": 50,
+            "text": "I am not interested in theoretical discussions.",
+            "dimension": "Openness",
+            "isReverseCoded": true
+        }
+    ]
+}
