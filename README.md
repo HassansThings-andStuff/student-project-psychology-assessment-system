@@ -3,17 +3,29 @@ The Psychology Assessment System is a Windows desktop application built in C# (.
 The program implements a multi-instrument psychological assessment engine. Participants select an assessment instrument, enter a participant ID, and respond to a series of questions. The system scores their responses, generates a detailed personalised report, and produces a data visualisation of their results. All results can be saved to and loaded from disk.
 The program was designed with three architectural goals that directly mirror the unit learning outcomes: clean object-oriented design (abstraction, encapsulation, inheritance, polymorphism), a data-driven instrument architecture (any well-formed JSON file dropped into the data/ folder is automatically discovered and usable without code changes), and a staged development process documented through a detailed devlog.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **2. How to Run**
 
 Requirements:
-.NET 8 SDK (or .NET 8 Runtime)
+
+_.NET 8 SDK (or .NET 8 Runtime)
+
 Windows 10 or later
-Visual Studio 2022 (recommended) or the .NET CLI
 
-**   
+Visual Studio 2022 (recommended) or the .NET CLI_
 
-Clone or download the repository from GitHub
-run PsychologyAssessment.exe**
+
+---
+
+ 
+
+step 1. Clone or download the repository from GitHub
+
+step 2. run PsychologyAssessment.exe
+
+
+---
 
 
 **Important — data/ folder**
